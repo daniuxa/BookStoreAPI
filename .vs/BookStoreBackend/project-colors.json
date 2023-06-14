@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f532627a-133f-439c-8a1d-ad8f8262b763": {
+      "ProjectGuid": "f532627a-133f-439c-8a1d-ad8f8262b763",
+      "DisplayName": "BookStoreAPI",
+      "ColorIndex": 0
+    },
+    "79ba52ad-a169-4560-8141-45524fbed56c": {
+      "ProjectGuid": "79ba52ad-a169-4560-8141-45524fbed56c",
+      "DisplayName": "BookStore_Bll",
+      "ColorIndex": 1
+    },
+    "cfef1371-19e3-489c-8cfd-1ee130a42aa5": {
+      "ProjectGuid": "cfef1371-19e3-489c-8cfd-1ee130a42aa5",
+      "DisplayName": "BookStore_Dal",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

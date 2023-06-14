@@ -1,0 +1,15 @@
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\bin\Debug\net6.0\BookStore_Bll.deps.json
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\bin\Debug\net6.0\BookStore_Bll.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\bin\Debug\net6.0\ref\BookStore_Bll.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\bin\Debug\net6.0\BookStore_Bll.pdb
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\bin\Debug\net6.0\BookStore_Dal.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\bin\Debug\net6.0\BookStore_Dal.pdb
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.csproj.AssemblyReference.cache
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.AssemblyInfoInputs.cache
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.AssemblyInfo.cs
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.csproj.CoreCompileInputs.cache
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.csproj.CopyComplete
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\ref\BookStore_Bll.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Bll\obj\Debug\net6.0\BookStore_Bll.pdb

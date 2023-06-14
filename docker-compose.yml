@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+ api:
+  image: books_api_image
+  restart: unless-stopped
+  container_name: books_api_container
+  build:
+   context: .
+   dockerfile: BookStoreAPI/Dockerfile
+  ports:
+  - "8080:80" 
+  depends_on:
+  - db
+  networks:
+  - books_net
+  environment:
+   - ASPNETCORE_ENVIRONMENT=Release
+ db:
+  image: mcr.microsoft.com/mssql/server:2022-latest
+  container_name: books_db_container
+  ports: 
+  - "1433:1433"
+  environment:
+  - SA_PASSWORD=Password123
+  - ACCEPT_EULA=Y
+  networks:
+  - books_net
+  volumes:
+  - books_db_container:/var/lib/mssql/data
+
+networks:
+ books_net:
+  driver: bridge
+
+volumes:
+  books_db_container:

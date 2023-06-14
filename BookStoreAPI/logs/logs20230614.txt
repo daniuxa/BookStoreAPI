@@ -1,0 +1,1469 @@
+2023-06-14 00:01:39.219 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 00:01:39.588 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 00:01:39.882 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:01:40.227 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:03:09.760 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 00:03:11.119 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 00:03:11.453 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:03:11.664 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:03:11.669 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 00:03:11.805 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:03:22.914 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 00:03:23.733 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 00:03:24.022 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:03:24.155 +03:00 [DBG] Migrating using database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:24.170 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:24.908 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:24.935 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 00:03:24.956 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (25ms).
+2023-06-14 00:03:24.989 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:25.056 +03:00 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:25.061 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.072 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.089 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 00:03:25.089 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-06-14 00:03:25.089 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.091 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.091 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:25.132 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:25.132 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.133 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.136 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.136 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.136 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 00:03:25.137 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 00:03:25.137 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:25.139 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:25.139 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.139 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.140 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 00:03:25.140 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-06-14 00:03:25.140 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.140 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.140 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:25.141 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:25.141 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.141 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.190 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 00:03:25.190 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 00:03:25.191 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.191 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.192 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 00:03:25.196 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 00:03:25.200 +03:00 [DBG] A data reader was disposed.
+2023-06-14 00:03:25.201 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.201 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.231 +03:00 [INF] Applying migration '20230613210311_init'.
+2023-06-14 00:03:25.319 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.319 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.322 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 00:03:25.337 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 00:03:25.338 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 00:03:25.338 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 00:03:25.339 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Author] nvarchar(max) NOT NULL,
+    [Year] int NOT NULL,
+    [Image] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([Id])
+);
+2023-06-14 00:03:25.358 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Author] nvarchar(max) NOT NULL,
+    [Year] int NOT NULL,
+    [Image] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([Id])
+);
+2023-06-14 00:03:25.359 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 00:03:25.359 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 00:03:25.359 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230613210311_init', N'6.0.18');
+2023-06-14 00:03:25.372 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230613210311_init', N'6.0.18');
+2023-06-14 00:03:25.374 +03:00 [DBG] Committing transaction.
+2023-06-14 00:03:25.379 +03:00 [DBG] Committed transaction.
+2023-06-14 00:03:25.382 +03:00 [DBG] Disposing transaction.
+2023-06-14 00:03:25.382 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.382 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:25.385 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:03:50.118 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 00:03:51.101 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 00:03:51.483 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:03:51.632 +03:00 [DBG] Migrating using database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:51.656 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.100 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.125 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 00:03:53.144 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (19ms).
+2023-06-14 00:03:53.168 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:53.266 +03:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:53.282 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.299 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.318 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 00:03:53.320 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-06-14 00:03:53.322 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.325 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.328 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:53.372 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:53.376 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.378 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.389 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.391 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.393 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 00:03:53.395 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-06-14 00:03:53.397 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:53.403 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 00:03:53.406 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.408 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.411 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 00:03:53.414 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-06-14 00:03:53.417 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.419 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.422 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:53.428 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 00:03:53.433 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.436 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.499 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 00:03:53.501 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-14 00:03:53.504 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.507 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.512 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 00:03:53.538 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 00:03:53.563 +03:00 [DBG] A data reader was disposed.
+2023-06-14 00:03:53.564 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.566 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:03:53.594 +03:00 [INF] No migrations were applied. The database is already up to date.
+2023-06-14 00:03:53.599 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:03:53.920 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 00:03:54.017 +03:00 [DBG] Hosting starting
+2023-06-14 00:03:54.358 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24757BB8D7ED95268F498ACD5F43442B900ABFC4)
+2023-06-14 00:03:54.433 +03:00 [INF] Now listening on: https://localhost:7116
+2023-06-14 00:03:54.435 +03:00 [INF] Now listening on: http://localhost:5116
+2023-06-14 00:03:54.441 +03:00 [DBG] Loaded hosting startup assembly BookStoreAPI
+2023-06-14 00:03:54.442 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 00:03:54.445 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 00:03:54.448 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 00:03:54.451 +03:00 [INF] Hosting environment: Development
+2023-06-14 00:03:54.454 +03:00 [INF] Content root path: C:\Users\saliv\source\repos\BookStoreBackend\BookStoreAPI\
+2023-06-14 00:03:54.458 +03:00 [DBG] Hosting started
+2023-06-14 00:03:54.791 +03:00 [DBG] Connection id "0HMRCA6P9RRDE" received FIN.
+2023-06-14 00:03:54.807 +03:00 [DBG] Connection id "0HMRCA6P9RRDE" accepted.
+2023-06-14 00:03:54.811 +03:00 [DBG] Connection id "0HMRCA6P9RRDE" started.
+2023-06-14 00:03:55.006 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 00:03:55.248 +03:00 [DBG] Connection id "0HMRCA6P9RRDE" stopped.
+2023-06-14 00:03:55.286 +03:00 [DBG] Connection id "0HMRCA6P9RRDE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 00:03:55.589 +03:00 [DBG] Connection id "0HMRCA6P9RRDF" accepted.
+2023-06-14 00:03:55.942 +03:00 [DBG] Connection id "0HMRCA6P9RRDF" started.
+2023-06-14 00:03:56.069 +03:00 [DBG] Connection 0HMRCA6P9RRDF established using the following protocol: "Tls13"
+2023-06-14 00:03:56.222 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2023-06-14 00:03:56.305 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 00:03:56.364 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 00:03:56.371 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 00:03:56.865 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 00:03:57.291 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 00:03:57.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 1095.2110ms
+2023-06-14 00:03:57.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 00:03:57.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 367.6566ms
+2023-06-14 00:03:58.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2023-06-14 00:03:58.188 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 00:03:58.190 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 00:04:00.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2358.2567ms
+2023-06-14 00:04:04.428 +03:00 [DBG] Connection id "0HMRCA6P9RRDF" received FIN.
+2023-06-14 00:04:04.431 +03:00 [DBG] Connection id "0HMRCA6P9RRDF" is closed. The last processed stream ID was 5.
+2023-06-14 00:04:04.482 +03:00 [DBG] Connection id "0HMRCA6P9RRDF" sending FIN because: "The client closed the connection."
+2023-06-14 00:04:04.490 +03:00 [DBG] Connection id "0HMRCA6P9RRDF" stopped.
+2023-06-14 00:04:06.934 +03:00 [DBG] Connection id "0HMRCA6P9RRDG" accepted.
+2023-06-14 00:04:06.938 +03:00 [DBG] Connection id "0HMRCA6P9RRDG" started.
+2023-06-14 00:04:06.956 +03:00 [DBG] Connection 0HMRCA6P9RRDG established using the following protocol: "Tls13"
+2023-06-14 00:04:06.964 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79
+2023-06-14 00:04:06.981 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 00:04:07.000 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 00:04:07.006 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:04:07.014 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 00:04:07.017 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 00:04:07.020 +03:00 [INF] CORS policy execution successful.
+2023-06-14 00:04:07.027 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:04:07.124 +03:00 [INF] Route matched with {action = "CreateBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] CreateBook(BookStore_Bll.BookDTO) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 00:04:07.130 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 00:04:07.133 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 00:04:07.135 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 00:04:07.140 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 00:04:07.143 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 00:04:07.148 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:04:07.511 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:04:07.521 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 00:04:07.525 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' using the name '' in request data ...
+2023-06-14 00:04:07.529 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 00:04:07.532 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 00:04:07.546 +03:00 [DBG] Connection id "0HMRCA6P9RRDG", Request id "0HMRCA6P9RRDG:00000001": started reading request body.
+2023-06-14 00:04:07.549 +03:00 [DBG] Connection id "0HMRCA6P9RRDG", Request id "0HMRCA6P9RRDG:00000001": done reading request body.
+2023-06-14 00:04:07.834 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:04:07.837 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:04:07.838 +03:00 [DBG] Attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 00:04:07.861 +03:00 [DBG] Done attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:04:07.891 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:04:07.971 +03:00 [DBG] 'BookStoreDbContext' generated temporary value '-2147482647' for the property 'Id.Book'.
+2023-06-14 00:04:08.096 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: -2147482647}'.
+2023-06-14 00:04:08.106 +03:00 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:04:08.113 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:04:08.128 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 00:04:08.172 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:04:08.174 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:04:08.180 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 00:04:08.199 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 00:04:08.353 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 00:04:08.356 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-14 00:04:08.374 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 00:04:08.444 +03:00 [INF] Executed DbCommand (78ms) [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 00:04:08.505 +03:00 [DBG] The foreign key property 'Book.Id' was detected as changed from '-2147482647' to '1' for entity with key '{Id: 1}'.
+2023-06-14 00:04:08.521 +03:00 [DBG] A data reader was disposed.
+2023-06-14 00:04:08.528 +03:00 [DBG] Committing transaction.
+2023-06-14 00:04:08.535 +03:00 [DBG] Committed transaction.
+2023-06-14 00:04:08.540 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:04:08.543 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:04:08.548 +03:00 [DBG] Disposing transaction.
+2023-06-14 00:04:08.573 +03:00 [DBG] The 'Book' entity with key '{Id: 1}' tracked by 'BookStoreDbContext' changed state from '"Added"' to '"Unchanged"'.
+2023-06-14 00:04:08.582 +03:00 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-06-14 00:04:08.594 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 00:04:08.604 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 00:04:08.611 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 00:04:08.614 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 00:04:08.657 +03:00 [DBG] Found the endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-06-14 00:04:08.682 +03:00 [DBG] Failed to process the template api/books/{id} for BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI). A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "CreateBook", "controller": "Book" } and { } with default values { "action": "GetBook", "controller": "Book" }
+2023-06-14 00:04:08.686 +03:00 [DBG] Link generation failed for endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"]
+2023-06-14 00:04:09.445 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI) in 2288.3158ms
+2023-06-14 00:04:09.764 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:04:10.552 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-14 00:04:10.595 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:04:10.604 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79 - 500 - text/plain;+charset=utf-8 3639.8585ms
+2023-06-14 00:04:14.446 +03:00 [DBG] Connection id "0HMRCA6P9RRDG" received FIN.
+2023-06-14 00:04:14.449 +03:00 [DBG] Connection id "0HMRCA6P9RRDG" is closed. The last processed stream ID was 1.
+2023-06-14 00:04:14.451 +03:00 [DBG] Connection id "0HMRCA6P9RRDG" sending FIN because: "The client closed the connection."
+2023-06-14 00:04:14.461 +03:00 [DBG] Connection id "0HMRCA6P9RRDG" stopped.
+2023-06-14 00:04:40.187 +03:00 [DBG] Connection id "0HMRCA6P9RRDH" accepted.
+2023-06-14 00:04:40.235 +03:00 [DBG] Connection id "0HMRCA6P9RRDH" started.
+2023-06-14 00:04:40.371 +03:00 [DBG] Connection 0HMRCA6P9RRDH established using the following protocol: "Tls13"
+2023-06-14 00:04:40.396 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79
+2023-06-14 00:04:40.407 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 00:04:40.412 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 00:04:40.416 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:04:40.419 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 00:04:40.424 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 00:04:40.434 +03:00 [INF] CORS policy execution successful.
+2023-06-14 00:04:40.449 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:04:40.471 +03:00 [INF] Route matched with {action = "CreateBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] CreateBook(BookStore_Bll.BookDTO) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 00:04:40.486 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 00:04:40.490 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 00:04:40.495 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 00:04:40.499 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 00:04:40.505 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 00:04:40.512 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:04:40.515 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:04:40.519 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 00:04:40.522 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' using the name '' in request data ...
+2023-06-14 00:04:40.525 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 00:04:40.532 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 00:04:40.536 +03:00 [DBG] Connection id "0HMRCA6P9RRDH", Request id "0HMRCA6P9RRDH:00000001": started reading request body.
+2023-06-14 00:04:40.540 +03:00 [DBG] Connection id "0HMRCA6P9RRDH", Request id "0HMRCA6P9RRDH:00000001": done reading request body.
+2023-06-14 00:04:40.543 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:04:40.546 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:04:40.550 +03:00 [DBG] Attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 00:04:40.553 +03:00 [DBG] Done attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:04:48.357 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:04:48.361 +03:00 [DBG] 'BookStoreDbContext' generated temporary value '-2147482646' for the property 'Id.Book'.
+2023-06-14 00:04:48.365 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: -2147482646}'.
+2023-06-14 00:05:12.984 +03:00 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:05:12.992 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:05:12.994 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 00:05:12.998 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:05:13.000 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:05:13.011 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 00:05:13.015 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 00:05:13.018 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 00:05:13.020 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-14 00:05:13.023 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 00:05:13.079 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 00:05:13.088 +03:00 [DBG] The foreign key property 'Book.Id' was detected as changed from '-2147482646' to '2' for entity with key '{Id: 2}'.
+2023-06-14 00:05:13.091 +03:00 [DBG] A data reader was disposed.
+2023-06-14 00:05:13.093 +03:00 [DBG] Committing transaction.
+2023-06-14 00:05:13.094 +03:00 [DBG] Committed transaction.
+2023-06-14 00:05:13.097 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:05:13.099 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:05:13.101 +03:00 [DBG] Disposing transaction.
+2023-06-14 00:05:13.102 +03:00 [DBG] The 'Book' entity with key '{Id: 2}' tracked by 'BookStoreDbContext' changed state from '"Added"' to '"Unchanged"'.
+2023-06-14 00:05:13.105 +03:00 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-06-14 00:05:51.043 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 00:05:51.069 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 00:05:51.075 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 00:05:51.078 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 00:05:51.081 +03:00 [DBG] Found the endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-06-14 00:05:51.085 +03:00 [DBG] Failed to process the template api/books/{id} for BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI). A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "CreateBook", "controller": "Book" } and { } with default values { "action": "GetBook", "controller": "Book" }
+2023-06-14 00:05:51.089 +03:00 [DBG] Link generation failed for endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"]
+2023-06-14 00:05:51.571 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI) in 71059.4391ms
+2023-06-14 00:05:51.777 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:05:52.518 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-14 00:05:52.552 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:05:52.578 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79 - 500 - text/plain;+charset=utf-8 72186.3938ms
+2023-06-14 00:05:54.604 +03:00 [DBG] Connection id "0HMRCA6P9RRDH" received FIN.
+2023-06-14 00:05:54.614 +03:00 [DBG] Connection id "0HMRCA6P9RRDH" is closed. The last processed stream ID was 1.
+2023-06-14 00:05:54.634 +03:00 [DBG] Connection id "0HMRCA6P9RRDH" sending FIN because: "The client closed the connection."
+2023-06-14 00:05:54.643 +03:00 [DBG] Connection id "0HMRCA6P9RRDH" stopped.
+2023-06-14 00:06:18.201 +03:00 [DBG] Connection id "0HMRCA6P9RRDI" accepted.
+2023-06-14 00:06:18.235 +03:00 [DBG] Connection id "0HMRCA6P9RRDI" started.
+2023-06-14 00:06:18.261 +03:00 [DBG] Connection 0HMRCA6P9RRDI established using the following protocol: "Tls13"
+2023-06-14 00:06:18.271 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/api/books/1 - -
+2023-06-14 00:06:18.280 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1'
+2023-06-14 00:06:18.284 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)' with route pattern 'api/books/{id}' is valid for the request path '/api/books/1'
+2023-06-14 00:06:18.287 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)'
+2023-06-14 00:06:18.288 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 00:06:18.290 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)'
+2023-06-14 00:06:18.300 +03:00 [INF] Route matched with {action = "GetBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] GetBook(Int32) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 00:06:18.303 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 00:06:18.305 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 00:06:18.308 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 00:06:18.312 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 00:06:18.315 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 00:06:18.318 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:06:18.323 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:06:18.326 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-14 00:06:18.329 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-14 00:06:18.333 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 00:06:18.335 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 00:06:18.337 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-14 00:06:18.339 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-14 00:06:30.099 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:06:30.298 +03:00 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Where(x => x.Id == __id_0)
+    .FirstOrDefault()'
+2023-06-14 00:06:30.700 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Book>(
+    asyncEnumerable: new SingleQueryingEnumerable<Book>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Author (string) Required, 1], [Property: Book.Image (string) Required, 2], [Property: Book.Title (string) Required, 3], [Property: Book.Year (int) Required, 4] }
+            SELECT TOP(1) b.Id, b.Author, b.Image, b.Title, b.Year
+            FROM Books AS b
+            WHERE b.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+        BookStore_Dal.BookStoreDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-14 00:06:30.798 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 00:06:30.799 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-14 00:06:30.802 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:06:30.803 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:06:30.806 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 00:06:30.821 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__id_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 00:06:31.222 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 1}'.
+2023-06-14 00:06:31.228 +03:00 [DBG] A data reader was disposed.
+2023-06-14 00:06:31.230 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:06:31.235 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:06:58.661 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 00:06:58.672 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 00:06:58.680 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 00:06:58.683 +03:00 [INF] Executing OkObjectResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 00:06:58.772 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI) in 40453.9085ms
+2023-06-14 00:06:58.995 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)'
+2023-06-14 00:06:58.996 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:06:59.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/api/books/1 - - - 200 69 application/json;+charset=utf-8 40732.8945ms
+2023-06-14 00:07:19.180 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ" accepted.
+2023-06-14 00:07:19.181 +03:00 [DBG] Connection id "0HMRCA6P9RRDI" received FIN.
+2023-06-14 00:07:19.225 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ" started.
+2023-06-14 00:07:19.227 +03:00 [DBG] Connection id "0HMRCA6P9RRDI" is closed. The last processed stream ID was 1.
+2023-06-14 00:07:19.245 +03:00 [DBG] Connection id "0HMRCA6P9RRDI" sending FIN because: "The client closed the connection."
+2023-06-14 00:07:19.245 +03:00 [DBG] Connection 0HMRCA6P9RRDJ established using the following protocol: "Tls13"
+2023-06-14 00:07:19.251 +03:00 [DBG] Connection id "0HMRCA6P9RRDI" stopped.
+2023-06-14 00:07:19.253 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79
+2023-06-14 00:07:19.256 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 00:07:19.259 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 00:07:19.262 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:07:19.267 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 00:07:19.269 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 00:07:19.272 +03:00 [INF] CORS policy execution successful.
+2023-06-14 00:07:19.274 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:07:19.277 +03:00 [INF] Route matched with {action = "CreateBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] CreateBook(BookStore_Bll.BookDTO) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 00:07:19.287 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 00:07:19.290 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 00:07:19.293 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 00:07:19.300 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 00:07:19.304 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 00:07:19.313 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:07:19.318 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 00:07:19.324 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 00:07:19.392 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' using the name '' in request data ...
+2023-06-14 00:07:19.396 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 00:07:19.404 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 00:07:19.413 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ", Request id "0HMRCA6P9RRDJ:00000001": started reading request body.
+2023-06-14 00:07:19.430 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ", Request id "0HMRCA6P9RRDJ:00000001": done reading request body.
+2023-06-14 00:07:19.440 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:07:19.444 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:07:19.449 +03:00 [DBG] Attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 00:07:19.459 +03:00 [DBG] Done attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 00:07:29.538 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 00:07:29.546 +03:00 [DBG] 'BookStoreDbContext' generated temporary value '-2147482645' for the property 'Id.Book'.
+2023-06-14 00:07:29.549 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: -2147482645}'.
+2023-06-14 00:07:29.552 +03:00 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:07:29.556 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 00:07:29.558 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 00:07:29.562 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:07:29.566 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:07:29.568 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 00:07:29.571 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 00:07:29.573 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 00:07:29.575 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-14 00:07:29.577 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 00:07:29.594 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 00:07:29.601 +03:00 [DBG] The foreign key property 'Book.Id' was detected as changed from '-2147482645' to '3' for entity with key '{Id: 3}'.
+2023-06-14 00:07:29.605 +03:00 [DBG] A data reader was disposed.
+2023-06-14 00:07:29.607 +03:00 [DBG] Committing transaction.
+2023-06-14 00:07:29.609 +03:00 [DBG] Committed transaction.
+2023-06-14 00:07:29.612 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:07:29.614 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 00:07:29.618 +03:00 [DBG] Disposing transaction.
+2023-06-14 00:07:29.619 +03:00 [DBG] The 'Book' entity with key '{Id: 3}' tracked by 'BookStoreDbContext' changed state from '"Added"' to '"Unchanged"'.
+2023-06-14 00:07:29.622 +03:00 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-06-14 00:07:29.624 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 00:07:29.629 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 00:07:29.634 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 00:07:29.635 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 00:07:29.637 +03:00 [DBG] Found the endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-06-14 00:07:29.638 +03:00 [DBG] Failed to process the template api/books/{id} for BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI). A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "CreateBook", "controller": "Book" } and { } with default values { "action": "GetBook", "controller": "Book" }
+2023-06-14 00:07:29.641 +03:00 [DBG] Link generation failed for endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"]
+2023-06-14 00:07:30.161 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI) in 10848.3432ms
+2023-06-14 00:07:30.441 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 00:07:31.241 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-14 00:07:31.272 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 00:07:31.276 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79 - 500 - text/plain;+charset=utf-8 12023.4757ms
+2023-06-14 00:07:34.748 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ" received FIN.
+2023-06-14 00:07:34.751 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ" is closed. The last processed stream ID was 1.
+2023-06-14 00:07:34.753 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ" sending FIN because: "The client closed the connection."
+2023-06-14 00:07:34.765 +03:00 [DBG] Connection id "0HMRCA6P9RRDJ" stopped.
+2023-06-14 09:47:22.179 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 09:47:23.216 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 09:47:23.614 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 09:47:26.351 +03:00 [DBG] Migrating using database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:26.393 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.099 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.123 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 09:47:27.136 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (13ms).
+2023-06-14 09:47:27.160 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 09:47:27.290 +03:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 09:47:27.308 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.332 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.358 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 09:47:27.360 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-06-14 09:47:27.362 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.365 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.367 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 09:47:27.430 +03:00 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 09:47:27.437 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.439 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.453 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.455 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.458 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 09:47:27.460 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-06-14 09:47:27.463 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 09:47:27.468 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 09:47:27.480 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.485 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.489 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 09:47:27.490 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-06-14 09:47:27.492 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.495 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.498 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 09:47:27.502 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 09:47:27.506 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.509 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.567 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 09:47:27.569 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-14 09:47:27.572 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.574 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.577 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 09:47:27.591 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 09:47:27.603 +03:00 [DBG] A data reader was disposed.
+2023-06-14 09:47:27.604 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.606 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:47:27.628 +03:00 [INF] No migrations were applied. The database is already up to date.
+2023-06-14 09:47:27.632 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 09:47:27.868 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 09:47:27.976 +03:00 [DBG] Hosting starting
+2023-06-14 09:47:28.358 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24757BB8D7ED95268F498ACD5F43442B900ABFC4)
+2023-06-14 09:47:28.431 +03:00 [INF] Now listening on: https://localhost:7116
+2023-06-14 09:47:28.433 +03:00 [INF] Now listening on: http://localhost:5116
+2023-06-14 09:47:28.435 +03:00 [DBG] Loaded hosting startup assembly BookStoreAPI
+2023-06-14 09:47:28.436 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 09:47:28.438 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 09:47:28.440 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 09:47:28.444 +03:00 [INF] Hosting environment: Development
+2023-06-14 09:47:28.445 +03:00 [INF] Content root path: C:\Users\saliv\source\repos\BookStoreBackend\BookStoreAPI\
+2023-06-14 09:47:28.447 +03:00 [DBG] Hosting started
+2023-06-14 09:47:28.817 +03:00 [DBG] Connection id "0HMRCKCS9JDLM" accepted.
+2023-06-14 09:47:28.817 +03:00 [DBG] Connection id "0HMRCKCS9JDLL" accepted.
+2023-06-14 09:47:28.821 +03:00 [DBG] Connection id "0HMRCKCS9JDLM" started.
+2023-06-14 09:47:28.822 +03:00 [DBG] Connection id "0HMRCKCS9JDLL" started.
+2023-06-14 09:47:30.277 +03:00 [DBG] Connection id "0HMRCKCS9JDLN" accepted.
+2023-06-14 09:47:30.835 +03:00 [DBG] Connection id "0HMRCKCS9JDLN" started.
+2023-06-14 09:47:30.949 +03:00 [DBG] Connection 0HMRCKCS9JDLN established using the following protocol: "Tls13"
+2023-06-14 09:47:31.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2023-06-14 09:47:31.171 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 09:47:31.234 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 09:47:31.257 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 09:47:31.729 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 09:47:32.185 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 09:47:32.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 1113.0468ms
+2023-06-14 09:47:32.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 09:47:32.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 13.8022ms
+2023-06-14 09:47:32.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2023-06-14 09:47:32.775 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 09:47:32.777 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 09:47:34.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1516.8737ms
+2023-06-14 09:47:36.973 +03:00 [DBG] Connection id "0HMRCKCS9JDLN" received FIN.
+2023-06-14 09:47:37.570 +03:00 [DBG] Connection id "0HMRCKCS9JDLN" is closed. The last processed stream ID was 5.
+2023-06-14 09:47:38.069 +03:00 [DBG] Connection id "0HMRCKCS9JDLN" sending FIN because: "The client closed the connection."
+2023-06-14 09:47:38.091 +03:00 [DBG] Connection id "0HMRCKCS9JDLN" stopped.
+2023-06-14 09:47:39.330 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-06-14 09:47:39.390 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-06-14 09:47:39.393 +03:00 [DBG] Connection id "0HMRCKCS9JDLM" stopped.
+2023-06-14 09:47:39.394 +03:00 [DBG] Connection id "0HMRCKCS9JDLL" stopped.
+2023-06-14 09:47:39.397 +03:00 [DBG] Connection id "0HMRCKCS9JDLM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 09:47:39.400 +03:00 [DBG] Connection id "0HMRCKCS9JDLL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 09:48:11.677 +03:00 [DBG] Connection id "0HMRCKCS9JDLO" accepted.
+2023-06-14 09:48:11.706 +03:00 [DBG] Connection id "0HMRCKCS9JDLO" started.
+2023-06-14 09:48:11.735 +03:00 [DBG] Connection 0HMRCKCS9JDLO established using the following protocol: "Tls13"
+2023-06-14 09:48:11.744 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79
+2023-06-14 09:48:11.760 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 09:48:11.772 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 09:48:11.776 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 09:48:11.779 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 09:48:11.782 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 09:48:11.786 +03:00 [INF] CORS policy execution successful.
+2023-06-14 09:48:11.796 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 09:48:11.882 +03:00 [INF] Route matched with {action = "CreateBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] CreateBook(BookStore_Bll.BookDTO) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 09:48:11.887 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 09:48:11.889 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 09:48:11.893 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 09:48:11.897 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 09:48:11.899 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 09:48:11.903 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 09:48:12.142 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 09:48:12.154 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 09:48:12.163 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' using the name '' in request data ...
+2023-06-14 09:48:12.167 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 09:48:12.174 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 09:48:12.193 +03:00 [DBG] Connection id "0HMRCKCS9JDLO", Request id "0HMRCKCS9JDLO:00000001": started reading request body.
+2023-06-14 09:48:12.197 +03:00 [DBG] Connection id "0HMRCKCS9JDLO", Request id "0HMRCKCS9JDLO:00000001": done reading request body.
+2023-06-14 09:48:12.437 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 09:48:12.439 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 09:48:12.441 +03:00 [DBG] Attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 09:48:12.461 +03:00 [DBG] Done attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 09:48:12.513 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 09:48:12.614 +03:00 [DBG] 'BookStoreDbContext' generated temporary value '-2147482647' for the property 'Id.Book'.
+2023-06-14 09:48:12.743 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: -2147482647}'.
+2023-06-14 09:48:12.750 +03:00 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-06-14 09:48:12.757 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 09:48:12.776 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 09:48:12.821 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:48:12.824 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:48:12.829 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 09:48:12.843 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 09:48:12.928 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 09:48:12.929 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-14 09:48:12.943 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 09:48:12.989 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 09:48:13.053 +03:00 [DBG] The foreign key property 'Book.Id' was detected as changed from '-2147482647' to '4' for entity with key '{Id: 4}'.
+2023-06-14 09:48:13.070 +03:00 [DBG] A data reader was disposed.
+2023-06-14 09:48:13.077 +03:00 [DBG] Committing transaction.
+2023-06-14 09:48:13.083 +03:00 [DBG] Committed transaction.
+2023-06-14 09:48:13.088 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:48:13.092 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:48:13.098 +03:00 [DBG] Disposing transaction.
+2023-06-14 09:48:13.122 +03:00 [DBG] The 'Book' entity with key '{Id: 4}' tracked by 'BookStoreDbContext' changed state from '"Added"' to '"Unchanged"'.
+2023-06-14 09:48:13.131 +03:00 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-06-14 09:48:13.144 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 09:48:13.154 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 09:48:13.160 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 09:48:13.163 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 09:48:13.185 +03:00 [DBG] Found the endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-06-14 09:48:13.203 +03:00 [DBG] Failed to process the template api/books/{id} for BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI). A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "CreateBook", "controller": "Book" } and { } with default values { "action": "GetBook", "controller": "Book" }
+2023-06-14 09:48:13.210 +03:00 [DBG] Link generation failed for endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"]
+2023-06-14 09:48:13.744 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI) in 1824.4811ms
+2023-06-14 09:48:13.995 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 09:48:14.775 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-14 09:48:14.873 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 09:48:14.877 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79 - 500 - text/plain;+charset=utf-8 3133.4951ms
+2023-06-14 09:48:17.019 +03:00 [DBG] Connection id "0HMRCKCS9JDLO" received FIN.
+2023-06-14 09:48:17.022 +03:00 [DBG] Connection id "0HMRCKCS9JDLO" sending FIN because: "The client closed the connection."
+2023-06-14 09:48:17.022 +03:00 [DBG] Connection id "0HMRCKCS9JDLO" is closed. The last processed stream ID was 1.
+2023-06-14 09:48:17.027 +03:00 [DBG] Connection id "0HMRCKCS9JDLO" stopped.
+2023-06-14 09:49:19.219 +03:00 [DBG] Connection id "0HMRCKCS9JDLP" accepted.
+2023-06-14 09:49:19.244 +03:00 [DBG] Connection id "0HMRCKCS9JDLP" started.
+2023-06-14 09:49:19.279 +03:00 [DBG] Connection 0HMRCKCS9JDLP established using the following protocol: "Tls13"
+2023-06-14 09:49:19.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/api/books/1 - -
+2023-06-14 09:49:19.301 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1'
+2023-06-14 09:49:19.307 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)' with route pattern 'api/books/{id}' is valid for the request path '/api/books/1'
+2023-06-14 09:49:19.311 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)'
+2023-06-14 09:49:19.313 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 09:49:19.315 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)'
+2023-06-14 09:49:19.327 +03:00 [INF] Route matched with {action = "GetBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] GetBook(Int32) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 09:49:19.333 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 09:49:19.335 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 09:49:19.337 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 09:49:19.342 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 09:49:19.344 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 09:49:19.349 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 09:49:19.352 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 09:49:19.355 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-14 09:49:19.358 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-14 09:49:19.365 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 09:49:19.366 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 09:49:19.368 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-14 09:49:19.370 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-14 09:49:19.526 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 09:49:19.698 +03:00 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Where(x => x.Id == __id_0)
+    .FirstOrDefault()'
+2023-06-14 09:49:19.983 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Book>(
+    asyncEnumerable: new SingleQueryingEnumerable<Book>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Author (string) Required, 1], [Property: Book.Image (string) Required, 2], [Property: Book.Title (string) Required, 3], [Property: Book.Year (int) Required, 4] }
+            SELECT TOP(1) b.Id, b.Author, b.Image, b.Title, b.Year
+            FROM Books AS b
+            WHERE b.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+        BookStore_Dal.BookStoreDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-14 09:49:20.067 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 09:49:20.070 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-14 09:49:20.072 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:49:20.075 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:49:20.078 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 09:49:20.088 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 09:49:20.108 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 1}'.
+2023-06-14 09:49:20.115 +03:00 [DBG] A data reader was disposed.
+2023-06-14 09:49:20.116 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:49:20.119 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 09:49:20.123 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 09:49:20.129 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 09:49:20.133 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 09:49:20.136 +03:00 [INF] Executing OkObjectResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 09:49:20.208 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI) in 858.9838ms
+2023-06-14 09:49:20.211 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)'
+2023-06-14 09:49:20.213 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 09:49:20.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/api/books/1 - - - 200 69 application/json;+charset=utf-8 930.2405ms
+2023-06-14 09:49:22.093 +03:00 [DBG] Connection id "0HMRCKCS9JDLP" received FIN.
+2023-06-14 09:49:22.096 +03:00 [DBG] Connection id "0HMRCKCS9JDLP" is closed. The last processed stream ID was 1.
+2023-06-14 09:49:22.111 +03:00 [DBG] Connection id "0HMRCKCS9JDLP" sending FIN because: "The client closed the connection."
+2023-06-14 09:49:22.122 +03:00 [DBG] Connection id "0HMRCKCS9JDLP" stopped.
+2023-06-14 10:03:54.111 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 10:03:55.163 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 10:03:55.680 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:03:55.873 +03:00 [DBG] Migrating using database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:55.901 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:56.803 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:56.829 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 10:03:56.851 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (21ms).
+2023-06-14 10:03:56.882 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:03:56.972 +03:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:03:56.985 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:56.997 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.021 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 10:03:57.023 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-06-14 10:03:57.025 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.035 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.043 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:03:57.115 +03:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:03:57.118 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.121 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.133 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.140 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.143 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 10:03:57.145 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-14 10:03:57.148 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:03:57.156 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:03:57.174 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.176 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.179 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 10:03:57.182 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-06-14 10:03:57.184 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.187 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.189 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:03:57.197 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:03:57.209 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.219 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.302 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:03:57.305 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-14 10:03:57.307 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.310 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.314 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 10:03:57.323 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 10:03:57.338 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:03:57.340 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.341 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:03:57.369 +03:00 [INF] No migrations were applied. The database is already up to date.
+2023-06-14 10:03:57.373 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:03:57.605 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 10:03:57.696 +03:00 [DBG] Hosting starting
+2023-06-14 10:03:58.077 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24757BB8D7ED95268F498ACD5F43442B900ABFC4)
+2023-06-14 10:03:58.191 +03:00 [INF] Now listening on: https://localhost:7116
+2023-06-14 10:03:58.194 +03:00 [INF] Now listening on: http://localhost:5116
+2023-06-14 10:03:58.197 +03:00 [DBG] Loaded hosting startup assembly BookStoreAPI
+2023-06-14 10:03:58.200 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 10:03:58.203 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 10:03:58.206 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 10:03:58.210 +03:00 [INF] Hosting environment: Development
+2023-06-14 10:03:58.212 +03:00 [INF] Content root path: C:\Users\saliv\source\repos\BookStoreBackend\BookStoreAPI\
+2023-06-14 10:03:58.213 +03:00 [DBG] Hosting started
+2023-06-14 10:03:58.344 +03:00 [DBG] Connection id "0HMRCKM36ERA8" accepted.
+2023-06-14 10:03:58.344 +03:00 [DBG] Connection id "0HMRCKM36ERA7" accepted.
+2023-06-14 10:03:58.350 +03:00 [DBG] Connection id "0HMRCKM36ERA8" started.
+2023-06-14 10:03:58.353 +03:00 [DBG] Connection id "0HMRCKM36ERA7" started.
+2023-06-14 10:03:58.647 +03:00 [DBG] Connection id "0HMRCKM36ERA8" received FIN.
+2023-06-14 10:03:58.647 +03:00 [DBG] Connection id "0HMRCKM36ERA7" received FIN.
+2023-06-14 10:03:59.034 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 10:03:59.068 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 10:03:59.703 +03:00 [DBG] Connection id "0HMRCKM36ERA9" accepted.
+2023-06-14 10:03:59.761 +03:00 [DBG] Connection id "0HMRCKM36ERA9" started.
+2023-06-14 10:03:59.757 +03:00 [DBG] Connection id "0HMRCKM36ERA7" stopped.
+2023-06-14 10:03:59.754 +03:00 [DBG] Connection id "0HMRCKM36ERA8" stopped.
+2023-06-14 10:03:59.776 +03:00 [DBG] Connection id "0HMRCKM36ERA7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 10:03:59.776 +03:00 [DBG] Connection id "0HMRCKM36ERA8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 10:03:59.885 +03:00 [DBG] Connection 0HMRCKM36ERA9 established using the following protocol: "Tls13"
+2023-06-14 10:04:00.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2023-06-14 10:04:00.111 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 10:04:00.168 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 10:04:00.170 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 10:04:00.876 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 10:04:01.510 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 10:04:01.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 1507.2881ms
+2023-06-14 10:04:01.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 10:04:01.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 26.9967ms
+2023-06-14 10:04:02.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2023-06-14 10:04:02.274 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 10:04:02.277 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 10:04:04.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1917.0192ms
+2023-06-14 10:04:08.456 +03:00 [DBG] Connection id "0HMRCKM36ERA9" received FIN.
+2023-06-14 10:04:08.459 +03:00 [DBG] Connection id "0HMRCKM36ERA9" is closed. The last processed stream ID was 5.
+2023-06-14 10:04:08.462 +03:00 [DBG] Connection id "0HMRCKM36ERA9" sending FIN because: "The client closed the connection."
+2023-06-14 10:04:08.475 +03:00 [DBG] Connection id "0HMRCKM36ERA9" stopped.
+2023-06-14 10:04:15.060 +03:00 [DBG] Connection id "0HMRCKM36ERAA" accepted.
+2023-06-14 10:04:15.094 +03:00 [DBG] Connection id "0HMRCKM36ERAA" started.
+2023-06-14 10:04:15.108 +03:00 [DBG] Connection 0HMRCKM36ERAA established using the following protocol: "Tls13"
+2023-06-14 10:04:15.122 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79
+2023-06-14 10:04:15.140 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 10:04:15.155 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 10:04:15.160 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 10:04:15.164 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 10:04:15.167 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 10:04:15.172 +03:00 [INF] CORS policy execution successful.
+2023-06-14 10:04:15.179 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 10:04:15.260 +03:00 [INF] Route matched with {action = "CreateBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BookStore_Dal.Book]] CreateBook(BookStore_Bll.BookDTO) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 10:04:15.264 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 10:04:15.267 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 10:04:15.271 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 10:04:15.275 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 10:04:15.280 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 10:04:15.287 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:15.703 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:15.729 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 10:04:15.737 +03:00 [DBG] Attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO' using the name '' in request data ...
+2023-06-14 10:04:15.745 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 10:04:15.757 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 10:04:15.777 +03:00 [DBG] Connection id "0HMRCKM36ERAA", Request id "0HMRCKM36ERAA:00000001": started reading request body.
+2023-06-14 10:04:15.780 +03:00 [DBG] Connection id "0HMRCKM36ERAA", Request id "0HMRCKM36ERAA:00000001": done reading request body.
+2023-06-14 10:04:16.088 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 10:04:16.090 +03:00 [DBG] Done attempting to bind parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 10:04:16.093 +03:00 [DBG] Attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO' ...
+2023-06-14 10:04:16.113 +03:00 [DBG] Done attempting to validate the bound parameter 'book' of type 'BookStore_Bll.BookDTO'.
+2023-06-14 10:04:16.167 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:04:16.290 +03:00 [DBG] 'BookStoreDbContext' generated temporary value '-2147482647' for the property 'Id.Book'.
+2023-06-14 10:04:16.414 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: -2147482647}'.
+2023-06-14 10:04:16.425 +03:00 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-06-14 10:04:16.433 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 10:04:16.452 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 10:04:16.497 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:16.500 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:16.505 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 10:04:16.524 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 10:04:16.674 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:04:16.677 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-14 10:04:16.698 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 10:04:16.759 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[@p0='string' (Nullable = false) (Size = 4000), @p1='string' (Nullable = false) (Size = 4000), @p2='string' (Nullable = false) (Size = 4000), @p3='0'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Author], [Image], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-06-14 10:04:16.841 +03:00 [DBG] The foreign key property 'Book.Id' was detected as changed from '-2147482647' to '5' for entity with key '{Id: 5}'.
+2023-06-14 10:04:16.860 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:04:16.866 +03:00 [DBG] Committing transaction.
+2023-06-14 10:04:16.875 +03:00 [DBG] Committed transaction.
+2023-06-14 10:04:16.880 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:16.883 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:16.889 +03:00 [DBG] Disposing transaction.
+2023-06-14 10:04:16.917 +03:00 [DBG] The 'Book' entity with key '{Id: 5}' tracked by 'BookStoreDbContext' changed state from '"Added"' to '"Unchanged"'.
+2023-06-14 10:04:16.927 +03:00 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-06-14 10:04:16.944 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 10:04:16.955 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 10:04:16.962 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 10:04:16.966 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'BookStore_Dal.Book'.
+2023-06-14 10:04:17.021 +03:00 [DBG] Found the endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-06-14 10:04:17.048 +03:00 [DBG] Successfully processed template api/books/{id} for BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI) resulting in /api/books/5 and 
+2023-06-14 10:04:17.053 +03:00 [DBG] Link generation succeeded for endpoints ["BookStoreAPI.Controllers.BookController.GetBook (BookStoreAPI)"] with result /api/books/5
+2023-06-14 10:04:17.163 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI) in 1865.5143ms
+2023-06-14 10:04:17.171 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.CreateBook (BookStoreAPI)'
+2023-06-14 10:04:17.176 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:04:17.181 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/api/books application/json-patch+json 79 - 201 69 application/json;+charset=utf-8 2059.3503ms
+2023-06-14 10:04:18.472 +03:00 [DBG] Connection id "0HMRCKM36ERAA" received FIN.
+2023-06-14 10:04:18.480 +03:00 [DBG] Connection id "0HMRCKM36ERAA" is closed. The last processed stream ID was 1.
+2023-06-14 10:04:18.483 +03:00 [DBG] Connection id "0HMRCKM36ERAA" sending FIN because: "The client closed the connection."
+2023-06-14 10:04:18.515 +03:00 [DBG] Connection id "0HMRCKM36ERAA" stopped.
+2023-06-14 10:04:29.553 +03:00 [DBG] Connection id "0HMRCKM36ERAB" accepted.
+2023-06-14 10:04:29.559 +03:00 [DBG] Connection id "0HMRCKM36ERAB" started.
+2023-06-14 10:04:29.574 +03:00 [DBG] Connection 0HMRCKM36ERAB established using the following protocol: "Tls13"
+2023-06-14 10:04:29.593 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/api/books - -
+2023-06-14 10:04:29.608 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 10:04:29.610 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 10:04:29.615 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)'
+2023-06-14 10:04:29.620 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 10:04:29.622 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)'
+2023-06-14 10:04:29.633 +03:00 [INF] Route matched with {action = "GetBooks", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[BookStore_Dal.Book]]] GetBooks() on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 10:04:29.637 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 10:04:29.640 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 10:04:29.642 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 10:04:29.646 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 10:04:29.651 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 10:04:29.654 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:29.658 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:29.819 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:04:29.938 +03:00 [DBG] Compiling query expression: 
+'DbSet<Book>()'
+2023-06-14 10:04:30.357 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Author (string) Required, 1], [Property: Book.Image (string) Required, 2], [Property: Book.Title (string) Required, 3], [Property: Book.Year (int) Required, 4] }
+        SELECT b.Id, b.Author, b.Image, b.Title, b.Year
+        FROM Books AS b), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStore_Dal.BookStoreDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-06-14 10:04:30.435 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:04:30.437 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-14 10:04:30.440 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:30.442 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:30.444 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+2023-06-14 10:04:30.453 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+2023-06-14 10:04:30.475 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 1}'.
+2023-06-14 10:04:30.482 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 2}'.
+2023-06-14 10:04:30.485 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 3}'.
+2023-06-14 10:04:30.488 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 4}'.
+2023-06-14 10:04:30.491 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 5}'.
+2023-06-14 10:04:30.495 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:04:30.496 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:30.499 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:30.502 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 10:04:30.508 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 10:04:30.513 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 10:04:30.516 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStore_Dal.Book, BookStore_Dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-14 10:04:30.539 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI) in 884.9032ms
+2023-06-14 10:04:30.546 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)'
+2023-06-14 10:04:30.550 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:04:30.554 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/api/books - - - 200 351 application/json;+charset=utf-8 961.1465ms
+2023-06-14 10:04:33.476 +03:00 [DBG] Connection id "0HMRCKM36ERAB" received FIN.
+2023-06-14 10:04:33.483 +03:00 [DBG] Connection id "0HMRCKM36ERAB" is closed. The last processed stream ID was 1.
+2023-06-14 10:04:33.489 +03:00 [DBG] Connection id "0HMRCKM36ERAB" sending FIN because: "The client closed the connection."
+2023-06-14 10:04:33.505 +03:00 [DBG] Connection id "0HMRCKM36ERAB" stopped.
+2023-06-14 10:04:51.058 +03:00 [DBG] Connection id "0HMRCKM36ERAC" accepted.
+2023-06-14 10:04:51.061 +03:00 [DBG] Connection id "0HMRCKM36ERAC" started.
+2023-06-14 10:04:51.071 +03:00 [DBG] Connection 0HMRCKM36ERAC established using the following protocol: "Tls13"
+2023-06-14 10:04:51.077 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7116/api/books/5 - -
+2023-06-14 10:04:51.082 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/5'
+2023-06-14 10:04:51.085 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.DeleteBook (BookStoreAPI)' with route pattern 'api/books/{id}' is valid for the request path '/api/books/5'
+2023-06-14 10:04:51.089 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.DeleteBook (BookStoreAPI)'
+2023-06-14 10:04:51.091 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 10:04:51.095 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 10:04:51.097 +03:00 [INF] CORS policy execution successful.
+2023-06-14 10:04:51.098 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.DeleteBook (BookStoreAPI)'
+2023-06-14 10:04:51.106 +03:00 [INF] Route matched with {action = "DeleteBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteBook(Int32) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 10:04:51.110 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 10:04:51.112 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 10:04:51.114 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 10:04:51.117 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 10:04:51.121 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 10:04:51.124 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:51.129 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:51.133 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-14 10:04:51.137 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-14 10:04:51.142 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 10:04:51.145 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 10:04:51.147 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-14 10:04:51.150 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-14 10:04:51.159 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:04:51.206 +03:00 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Where(x => x.Id == __id_0)
+    .FirstOrDefault()'
+2023-06-14 10:04:51.360 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Book>(
+    asyncEnumerable: new SingleQueryingEnumerable<Book>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Author (string) Required, 1], [Property: Book.Image (string) Required, 2], [Property: Book.Title (string) Required, 3], [Property: Book.Year (int) Required, 4] }
+            SELECT TOP(1) b.Id, b.Author, b.Image, b.Title, b.Year
+            FROM Books AS b
+            WHERE b.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+        BookStore_Dal.BookStoreDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-14 10:04:51.383 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:04:51.386 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-06-14 10:04:51.397 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.412 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.416 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='5'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 10:04:51.445 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[@__id_0='5'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 10:04:51.464 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 5}'.
+2023-06-14 10:04:51.478 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:04:51.480 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.482 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.492 +03:00 [DBG] The 'Book' entity with key '{Id: 5}' tracked by 'BookStoreDbContext' changed state from '"Unchanged"' to '"Deleted"'.
+2023-06-14 10:04:51.505 +03:00 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-06-14 10:04:51.507 +03:00 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-06-14 10:04:51.510 +03:00 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-06-14 10:04:51.514 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.516 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.520 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 10:04:51.522 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 10:04:51.537 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:04:51.540 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-06-14 10:04:51.543 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='5'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Books]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-06-14 10:04:51.570 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='5'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Books]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-06-14 10:04:51.578 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:04:51.580 +03:00 [DBG] Committing transaction.
+2023-06-14 10:04:51.582 +03:00 [DBG] Committed transaction.
+2023-06-14 10:04:51.584 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.586 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:51.588 +03:00 [DBG] Disposing transaction.
+2023-06-14 10:04:51.602 +03:00 [DBG] The 'Book' entity with key '{Id: 5}' tracked by 'BookStoreDbContext' changed state from '"Deleted"' to '"Detached"'.
+2023-06-14 10:04:51.606 +03:00 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-06-14 10:04:51.624 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-06-14 10:04:51.628 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.DeleteBook (BookStoreAPI) in 504.786ms
+2023-06-14 10:04:51.631 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.DeleteBook (BookStoreAPI)'
+2023-06-14 10:04:51.636 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:04:51.641 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7116/api/books/5 - - - 204 - - 564.0348ms
+2023-06-14 10:04:53.518 +03:00 [DBG] Connection id "0HMRCKM36ERAC" received FIN.
+2023-06-14 10:04:53.521 +03:00 [DBG] Connection id "0HMRCKM36ERAC" is closed. The last processed stream ID was 1.
+2023-06-14 10:04:53.524 +03:00 [DBG] Connection id "0HMRCKM36ERAC" sending FIN because: "The client closed the connection."
+2023-06-14 10:04:53.540 +03:00 [DBG] Connection id "0HMRCKM36ERAC" stopped.
+2023-06-14 10:04:55.484 +03:00 [DBG] Connection id "0HMRCKM36ERAD" accepted.
+2023-06-14 10:04:55.486 +03:00 [DBG] Connection id "0HMRCKM36ERAD" started.
+2023-06-14 10:04:55.502 +03:00 [DBG] Connection 0HMRCKM36ERAD established using the following protocol: "Tls13"
+2023-06-14 10:04:55.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/api/books - -
+2023-06-14 10:04:55.517 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2023-06-14 10:04:55.523 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)' with route pattern 'api/books' is valid for the request path '/api/books'
+2023-06-14 10:04:55.527 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)'
+2023-06-14 10:04:55.529 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 10:04:55.530 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)'
+2023-06-14 10:04:55.533 +03:00 [INF] Route matched with {action = "GetBooks", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[BookStore_Dal.Book]]] GetBooks() on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 10:04:55.538 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 10:04:55.540 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 10:04:55.542 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 10:04:55.545 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 10:04:55.547 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 10:04:55.552 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:55.555 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:04:55.560 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:04:55.570 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:04:55.576 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2023-06-14 10:04:55.579 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:55.586 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:55.591 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+2023-06-14 10:04:55.605 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+2023-06-14 10:04:55.611 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 1}'.
+2023-06-14 10:04:55.619 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 2}'.
+2023-06-14 10:04:55.623 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 3}'.
+2023-06-14 10:04:55.627 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 4}'.
+2023-06-14 10:04:55.631 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:04:55.636 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:55.641 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:04:55.645 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 10:04:55.654 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-14 10:04:55.660 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 10:04:55.663 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStore_Dal.Book, BookStore_Dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-14 10:04:55.672 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI) in 119.6663ms
+2023-06-14 10:04:55.675 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.GetBooks (BookStoreAPI)'
+2023-06-14 10:04:55.678 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:04:55.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/api/books - - - 200 281 application/json;+charset=utf-8 166.7499ms
+2023-06-14 10:05:03.538 +03:00 [DBG] Connection id "0HMRCKM36ERAD" received FIN.
+2023-06-14 10:05:03.541 +03:00 [DBG] Connection id "0HMRCKM36ERAD" is closed. The last processed stream ID was 1.
+2023-06-14 10:05:03.543 +03:00 [DBG] Connection id "0HMRCKM36ERAD" sending FIN because: "The client closed the connection."
+2023-06-14 10:05:03.552 +03:00 [DBG] Connection id "0HMRCKM36ERAD" stopped.
+2023-06-14 10:16:35.073 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 10:16:36.705 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-14 10:16:37.208 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:16:37.469 +03:00 [DBG] Migrating using database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:37.524 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.262 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.298 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 10:16:38.316 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (22ms).
+2023-06-14 10:16:38.340 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:16:38.430 +03:00 [INF] Executed DbCommand (93ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:16:38.442 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.456 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.480 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 10:16:38.482 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-06-14 10:16:38.484 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.487 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.490 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:16:38.538 +03:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:16:38.542 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.544 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.553 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.557 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.559 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 10:16:38.562 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-14 10:16:38.564 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:16:38.572 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 10:16:38.584 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.588 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.592 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 10:16:38.595 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-06-14 10:16:38.597 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.600 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.604 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:16:38.615 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 10:16:38.625 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.628 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.669 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:16:38.670 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-14 10:16:38.672 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.673 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.676 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 10:16:38.684 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 10:16:38.700 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:16:38.702 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.706 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:16:38.736 +03:00 [INF] No migrations were applied. The database is already up to date.
+2023-06-14 10:16:38.739 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:16:38.940 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 10:16:39.047 +03:00 [DBG] Hosting starting
+2023-06-14 10:16:39.352 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24757BB8D7ED95268F498ACD5F43442B900ABFC4)
+2023-06-14 10:16:39.416 +03:00 [INF] Now listening on: https://localhost:7116
+2023-06-14 10:16:39.423 +03:00 [INF] Now listening on: http://localhost:5116
+2023-06-14 10:16:39.424 +03:00 [DBG] Loaded hosting startup assembly BookStoreAPI
+2023-06-14 10:16:39.426 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 10:16:39.428 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 10:16:39.431 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 10:16:39.434 +03:00 [INF] Hosting environment: Development
+2023-06-14 10:16:39.436 +03:00 [INF] Content root path: C:\Users\saliv\source\repos\BookStoreBackend\BookStoreAPI\
+2023-06-14 10:16:39.438 +03:00 [DBG] Hosting started
+2023-06-14 10:16:39.928 +03:00 [DBG] Connection id "0HMRCKT65G6H4" accepted.
+2023-06-14 10:16:39.928 +03:00 [DBG] Connection id "0HMRCKT65G6H3" accepted.
+2023-06-14 10:16:39.933 +03:00 [DBG] Connection id "0HMRCKT65G6H4" started.
+2023-06-14 10:16:39.933 +03:00 [DBG] Connection id "0HMRCKT65G6H3" started.
+2023-06-14 10:16:40.136 +03:00 [DBG] Connection id "0HMRCKT65G6H4" received FIN.
+2023-06-14 10:16:40.137 +03:00 [DBG] Connection id "0HMRCKT65G6H3" received FIN.
+2023-06-14 10:16:40.622 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 10:16:41.044 +03:00 [DBG] Connection id "0HMRCKT65G6H5" accepted.
+2023-06-14 10:16:40.649 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 10:16:41.152 +03:00 [DBG] Connection id "0HMRCKT65G6H5" started.
+2023-06-14 10:16:41.166 +03:00 [DBG] Connection id "0HMRCKT65G6H3" stopped.
+2023-06-14 10:16:41.166 +03:00 [DBG] Connection id "0HMRCKT65G6H4" stopped.
+2023-06-14 10:16:41.187 +03:00 [DBG] Connection id "0HMRCKT65G6H3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 10:16:41.188 +03:00 [DBG] Connection id "0HMRCKT65G6H4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 10:16:41.260 +03:00 [DBG] Connection 0HMRCKT65G6H5 established using the following protocol: "Tls13"
+2023-06-14 10:16:41.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2023-06-14 10:16:41.438 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 10:16:41.505 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 10:16:41.512 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 10:16:41.940 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 10:16:42.180 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 10:16:42.204 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 10:16:42.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 849.9110ms
+2023-06-14 10:16:42.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 51.7806ms
+2023-06-14 10:16:42.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2023-06-14 10:16:42.691 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 10:16:42.693 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 10:16:43.824 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1139.0771ms
+2023-06-14 10:16:44.674 +03:00 [DBG] Connection id "0HMRCKT65G6H5" received FIN.
+2023-06-14 10:16:44.677 +03:00 [DBG] Connection id "0HMRCKT65G6H5" is closed. The last processed stream ID was 5.
+2023-06-14 10:16:44.679 +03:00 [DBG] Connection id "0HMRCKT65G6H5" sending FIN because: "The client closed the connection."
+2023-06-14 10:16:44.689 +03:00 [DBG] Connection id "0HMRCKT65G6H5" stopped.
+2023-06-14 10:17:35.941 +03:00 [DBG] Connection id "0HMRCKT65G6H6" accepted.
+2023-06-14 10:17:35.997 +03:00 [DBG] Connection id "0HMRCKT65G6H6" started.
+2023-06-14 10:17:36.038 +03:00 [DBG] Connection 0HMRCKT65G6H6 established using the following protocol: "Tls13"
+2023-06-14 10:17:36.047 +03:00 [INF] Request starting HTTP/2 PATCH https://localhost:7116/api/books/1 application/json-patch+json 96
+2023-06-14 10:17:36.060 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1'
+2023-06-14 10:17:36.075 +03:00 [DBG] Endpoint 'BookStoreAPI.Controllers.BookController.PartiallyUpdateBook (BookStoreAPI)' with route pattern 'api/books/{id}' is valid for the request path '/api/books/1'
+2023-06-14 10:17:36.080 +03:00 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookController.PartiallyUpdateBook (BookStoreAPI)'
+2023-06-14 10:17:36.087 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 10:17:36.090 +03:00 [DBG] The request has an origin header: 'https://localhost:7116'.
+2023-06-14 10:17:36.093 +03:00 [INF] CORS policy execution successful.
+2023-06-14 10:17:36.102 +03:00 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookController.PartiallyUpdateBook (BookStoreAPI)'
+2023-06-14 10:17:36.201 +03:00 [INF] Route matched with {action = "PartiallyUpdateBook", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PartiallyUpdateBook(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]) on controller BookStoreAPI.Controllers.BookController (BookStoreAPI).
+2023-06-14 10:17:36.206 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 10:17:36.209 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 10:17:36.213 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 10:17:36.218 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 10:17:36.221 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-14 10:17:36.231 +03:00 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:17:36.565 +03:00 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookController (BookStoreAPI)
+2023-06-14 10:17:36.575 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-14 10:17:36.583 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-14 10:17:36.588 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 10:17:36.590 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-14 10:17:36.592 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-14 10:17:36.598 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-14 10:17:36.602 +03:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]' ...
+2023-06-14 10:17:36.605 +03:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]' using the name '' in request data ...
+2023-06-14 10:17:36.609 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 10:17:36.621 +03:00 [DBG] Connection id "0HMRCKT65G6H6", Request id "0HMRCKT65G6H6:00000001": started reading request body.
+2023-06-14 10:17:36.624 +03:00 [DBG] Connection id "0HMRCKT65G6H6", Request id "0HMRCKT65G6H6:00000001": done reading request body.
+2023-06-14 10:17:36.985 +03:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]'.
+2023-06-14 10:17:36.988 +03:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]'.
+2023-06-14 10:17:36.990 +03:00 [DBG] Attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]' ...
+2023-06-14 10:17:37.004 +03:00 [DBG] Done attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[BookStore_Bll.BookDTO]'.
+2023-06-14 10:17:37.061 +03:00 [INF] Entity Framework Core 6.0.18 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.18' with options: SensitiveDataLoggingEnabled 
+2023-06-14 10:17:37.377 +03:00 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Where(x => x.Id == __id_0)
+    .FirstOrDefault()'
+2023-06-14 10:17:37.878 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Book>(
+    asyncEnumerable: new SingleQueryingEnumerable<Book>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Author (string) Required, 1], [Property: Book.Image (string) Required, 2], [Property: Book.Title (string) Required, 3], [Property: Book.Year (int) Required, 4] }
+            SELECT TOP(1) b.Id, b.Author, b.Image, b.Title, b.Year
+            FROM Books AS b
+            WHERE b.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+        BookStore_Dal.BookStoreDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-14 10:17:37.979 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 10:17:37.993 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (13ms).
+2023-06-14 10:17:38.005 +03:00 [DBG] Opening connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:17:38.011 +03:00 [DBG] Opened connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:17:38.029 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 10:17:38.069 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[@__id_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Author], [b].[Image], [b].[Title], [b].[Year]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2023-06-14 10:17:38.141 +03:00 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity with key '{Id: 1}'.
+2023-06-14 10:17:38.185 +03:00 [DBG] A data reader was disposed.
+2023-06-14 10:17:38.187 +03:00 [DBG] Closing connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:17:38.189 +03:00 [DBG] Closed connection to database 'BooksApi' on server 'DESKTOP-HAL50HT'.
+2023-06-14 10:17:38.232 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-14 10:17:38.238 +03:00 [DBG] No information found on request to perform content negotiation.
+2023-06-14 10:17:38.240 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json","application/xml"]'.
+2023-06-14 10:17:38.245 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 10:17:38.248 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2023-06-14 10:17:38.339 +03:00 [INF] Executed action BookStoreAPI.Controllers.BookController.PartiallyUpdateBook (BookStoreAPI) in 2099.5811ms
+2023-06-14 10:17:38.342 +03:00 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookController.PartiallyUpdateBook (BookStoreAPI)'
+2023-06-14 10:17:38.347 +03:00 [DBG] 'BookStoreDbContext' disposed.
+2023-06-14 10:17:38.352 +03:00 [INF] Request finished HTTP/2 PATCH https://localhost:7116/api/books/1 application/json-patch+json 96 - 400 42 application/json;+charset=utf-8 2304.2349ms
+2023-06-14 10:17:39.751 +03:00 [DBG] Connection id "0HMRCKT65G6H6" received FIN.
+2023-06-14 10:17:39.753 +03:00 [DBG] Connection id "0HMRCKT65G6H6" is closed. The last processed stream ID was 1.
+2023-06-14 10:17:39.754 +03:00 [DBG] Connection id "0HMRCKT65G6H6" sending FIN because: "The client closed the connection."
+2023-06-14 10:17:39.762 +03:00 [DBG] Connection id "0HMRCKT65G6H6" stopped.

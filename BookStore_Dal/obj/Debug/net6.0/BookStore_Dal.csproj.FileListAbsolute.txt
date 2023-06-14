@@ -1,0 +1,14 @@
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\bin\Debug\net6.0\BookStore_Dal.deps.json
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\bin\Debug\net6.0\BookStore_Dal.runtimeconfig.json
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\bin\Debug\net6.0\BookStore_Dal.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\bin\Debug\net6.0\ref\BookStore_Dal.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\bin\Debug\net6.0\BookStore_Dal.pdb
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.csproj.AssemblyReference.cache
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.AssemblyInfoInputs.cache
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.AssemblyInfo.cs
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.csproj.CoreCompileInputs.cache
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\ref\BookStore_Dal.dll
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.pdb
+C:\Users\saliv\source\repos\BookStoreBackend\BookStore_Dal\obj\Debug\net6.0\BookStore_Dal.genruntimeconfig.cache
